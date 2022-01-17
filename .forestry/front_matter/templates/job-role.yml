@@ -38,4 +38,5 @@ fields:
       path: 
   label: Status
 pages:
+- pages/jobs/Accessbility-Specialist.mdx
 - pages/jobs/UX-Designer.mdx
