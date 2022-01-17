@@ -5,10 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: jobs
+  path: pages/jobs
   label: Job Roles
   create: all
   match: "**/*"
+  new_doc_ext: ".mdx"
   templates:
   - job-role
 - type: document
