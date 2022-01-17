@@ -9,7 +9,7 @@ sections:
   label: Job Roles
   create: all
   match: "**/*"
-  new_doc_ext: ".mdx"
+  new_doc_ext: mdx
   templates:
   - job-role
 - type: document

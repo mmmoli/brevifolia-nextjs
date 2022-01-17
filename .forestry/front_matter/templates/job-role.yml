@@ -1,6 +1,7 @@
 ---
 label: Job Role
 hide_body: false
+display_field: job_description
 fields:
 - name: role_title
   type: text
@@ -45,5 +46,3 @@ fields:
     schema:
       format: markdown
   label: Job Description
-pages:
-- jobs/Managing-Director.md
