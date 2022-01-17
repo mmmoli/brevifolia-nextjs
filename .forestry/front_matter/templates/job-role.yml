@@ -46,3 +46,4 @@ fields:
     schema:
       format: markdown
   label: Job Description
+  hidden: true
