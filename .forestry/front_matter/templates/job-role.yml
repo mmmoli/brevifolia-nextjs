@@ -37,15 +37,5 @@ fields:
       file: 
       path: 
   label: Status
-- name: job_description
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Job Description
-  hidden: true
 pages:
 - pages/jobs/UX-Designer.mdx
