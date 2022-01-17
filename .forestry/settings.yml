@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: jobs
+  label: Job Roles
+  create: all
+  match: "**/*"
+  templates:
+  - job-role
 - type: document
   path: team
   label: Team
