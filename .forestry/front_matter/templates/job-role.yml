@@ -1,4 +1,47 @@
 ---
 label: Job Role
 hide_body: false
-fields: []
+fields:
+- name: role_title
+  type: text
+  config:
+    required: true
+  label: Role Title
+  description: What's the name of the role?
+- name: location
+  type: select
+  default: London
+  config:
+    required: true
+    options:
+    - London
+    - Sydney
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Location
+- name: status
+  type: select
+  default: closed
+  config:
+    required: true
+    options:
+    - open
+    - closed
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Status
+- name: job_description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Job Description
