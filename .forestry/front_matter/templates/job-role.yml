@@ -45,3 +45,5 @@ fields:
     schema:
       format: markdown
   label: Job Description
+pages:
+- jobs/Managing-Director.md
