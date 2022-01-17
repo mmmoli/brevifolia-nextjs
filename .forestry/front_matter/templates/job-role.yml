@@ -1,7 +1,7 @@
 ---
 label: Job Role
 hide_body: false
-display_field: job_description
+display_field: role_title
 fields:
 - name: role_title
   type: text
